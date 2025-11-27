@@ -182,7 +182,7 @@ export default function Home() {
         )}
       </main>
 
-      <Footer memoryCount={memories.length} coupleName="E & J" />
+      <Footer memoryCount={memories.length} coupleName="N & D" />
 
       <MemoryDetail
         memory={selectedMemory}

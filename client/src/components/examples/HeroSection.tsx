@@ -3,7 +3,7 @@ import { HeroSection } from "../HeroSection";
 export default function HeroSectionExample() {
   return (
     <HeroSection
-      coupleName="Emma & James"
+      coupleName="Neetu & Dev"
       tagline="Every moment with you is a treasure worth keeping forever"
       memoryCount={42}
       onExplore={() => console.log("Explore clicked")}
