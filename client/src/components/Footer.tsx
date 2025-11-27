@@ -5,7 +5,7 @@ interface FooterProps {
   coupleName?: string;
 }
 
-export function Footer({ memoryCount = 0, coupleName = "E & J" }: FooterProps) {
+export function Footer({ memoryCount = 0, coupleName = "N & D" }: FooterProps) {
   return (
     <footer className="border-t bg-card py-8">
       <div className="mx-auto max-w-7xl px-6 text-center">
