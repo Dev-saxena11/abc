@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "gitsafe-backup"]
+	url = git://gitsafe:5418/backup.git
+	fetch = +refs/heads/*:refs/remotes/gitsafe-backup/*
+	skipFetchAll = true
+[lfs]
+	repositoryformatversion = 0
+[remote "origin"]
+	url = https://github.com/Dev-saxena11/<repo>.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
