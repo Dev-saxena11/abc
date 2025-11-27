@@ -139,7 +139,7 @@ export default function Home() {
       />
 
       <HeroSection
-        coupleName="Emma & James"
+        coupleName="Neetu & Dev"
         tagline="Every moment with you is a treasure worth keeping forever"
         memoryCount={memories.length}
         onExplore={scrollToMemories}
